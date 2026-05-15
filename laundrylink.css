@@ -912,7 +912,7 @@
   color: #fff;
   padding: 16px;
   width: 140px;
-  transform: translateZ(calc(-20px + 70px * var(--scroll-p, 0))) 
+  transform: translateZ(calc(40px + 60px * var(--scroll-p, 0))) 
              translateX(calc(20px + 10px * var(--scroll-p, 0))) 
              rotateY(calc(10deg - 15deg * var(--scroll-p, 0)));
 }
@@ -947,7 +947,7 @@
   background: #fff;
   border: 1px solid #e2e8f0;
   padding: 12px 16px;
-  transform: translateZ(calc(-10px + 50px * var(--scroll-p, 0))) 
+  transform: translateZ(calc(30px + 40px * var(--scroll-p, 0))) 
              translateX(calc(-20px - 10px * var(--scroll-p, 0))) 
              rotateY(calc(-5deg + 10deg * var(--scroll-p, 0)));
 }
