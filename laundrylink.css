@@ -397,7 +397,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  perspective: 1000px;
 }
 
 .report-container {
@@ -408,6 +407,7 @@
   flex-direction: column;
   align-items: center;
   z-index: 10;
+  perspective: 1000px;
 }
 
 /* ── Dashboard Card (The "POS") ── */
@@ -696,7 +696,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  perspective: 1200px;
 }
 
 .pos-showcase {
@@ -705,7 +704,7 @@
   max-width: 320px;
   display: flex;
   justify-content: center;
-  transform-style: preserve-3d;
+  perspective: 1200px;
 }
 
 /* ── Mobile Device / POS Terminal ── */
