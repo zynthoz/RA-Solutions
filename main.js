@@ -98,4 +98,35 @@
     });
   }
 
+  // ——— Scroll-linked Feature Animations (LaundryLink) ———
+  var scrollAnimContainers = document.querySelectorAll('.scroll-anim-container');
+  if (scrollAnimContainers.length > 0) {
+    var onScrollAnim = function () {
+      var windowHeight = window.innerHeight;
+      var screenCenter = windowHeight / 2;
+      
+      scrollAnimContainers.forEach(function (container) {
+        var rect = container.getBoundingClientRect();
+        var elementCenter = rect.top + rect.height / 2;
+        var distance = Math.abs(screenCenter - elementCenter);
+        
+        // Asymmetric threshold:
+        // Use a 0.35 threshold when the element is approaching from the bottom.
+        // Use a much larger threshold (0.65) when it passes the center so it takes much longer to fully revert.
+        var threshold = (elementCenter > screenCenter) ? (windowHeight * 0.35) : (windowHeight * 0.65); 
+        
+        var progress = 1 - (distance / threshold);
+        progress = Math.max(0, Math.min(1, progress));
+        
+        // Smoothstep easing for a polished start and end
+        progress = progress * progress * (3 - 2 * progress);
+        
+        container.style.setProperty('--scroll-p', progress.toFixed(4));
+      });
+    };
+    window.addEventListener('scroll', onScrollAnim, { passive: true });
+    // Trigger once on load
+    onScrollAnim();
+  }
+
 })();
