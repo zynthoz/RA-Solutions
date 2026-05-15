@@ -223,6 +223,7 @@
               opacity 0.3s ease,
               z-index 0s;
   opacity: 1;
+  will-change: transform;
 }
 
 /* ── Fan/Arch positions — cards spread from a shared bottom-center pivot ── */
@@ -421,6 +422,7 @@
   z-index: 10;
   transform: translateZ(calc(20px + 20px * var(--scroll-p, 0))) translateY(calc(0px - 10px * var(--scroll-p, 0)));
   transition: transform 0.1s ease-out;
+  will-change: transform;
 }
 
 .rd-header {
@@ -613,6 +615,7 @@
   transition: transform 0.1s ease-out;
   pointer-events: none;
   transform: translateX(-50%) translateY(calc(0px + 240px * var(--scroll-p, 0)));
+  will-change: transform;
 }
 
 .report-receipt::after {
@@ -629,7 +632,7 @@
 
 .receipt-body {
   padding: 24px 20px;
-  font-family: var(--font-mono);
+  font-family: 'Courier New', Courier, monospace;
   color: #334155;
   background: #fff;
 }
@@ -717,6 +720,7 @@
              translateZ(calc(0px + 20px * var(--scroll-p, 0)));
   transition: transform 0.1s ease-out;
   z-index: 2;
+  will-change: transform;
 }
 
 .pos-app {
@@ -835,7 +839,7 @@
   font-weight: 700;
   color: #0f172a;
   letter-spacing: 0.05em;
-  font-family: var(--font-mono);
+  font-family: monospace;
 }
 
 .time-label {
