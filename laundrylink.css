@@ -629,7 +629,7 @@
 
 .receipt-body {
   padding: 24px 20px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-mono);
   color: #334155;
   background: #fff;
 }
@@ -835,7 +835,7 @@
   font-weight: 700;
   color: #0f172a;
   letter-spacing: 0.05em;
-  font-family: monospace;
+  font-family: var(--font-mono);
 }
 
 .time-label {
