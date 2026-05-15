@@ -121,11 +121,18 @@
             var distance = Math.abs(screenCenter - elementCenter);
             
             // Asymmetric threshold:
-            // Use a 0.35 threshold when the element is approaching from the bottom.
-            // Use a much larger threshold (0.65) when it passes the center so it takes much longer to fully revert.
-            var threshold = (elementCenter > screenCenter) ? (windowHeight * 0.35) : (windowHeight * 0.65); 
+            // Use a larger threshold so it begins animating earlier
+            var threshold = (elementCenter > screenCenter) ? (windowHeight * 0.45) : (windowHeight * 0.65); 
             
-            var progress = 1 - (distance / threshold);
+            // Dead zone: element remains perfectly in focus when near the center (within 20% of screen center)
+            var deadZone = windowHeight * 0.2;
+            
+            var progress;
+            if (distance <= deadZone) {
+              progress = 1;
+            } else {
+              progress = 1 - ((distance - deadZone) / (threshold - deadZone));
+            }
             progress = Math.max(0, Math.min(1, progress));
             
             // Smoothstep easing for a polished start and end
