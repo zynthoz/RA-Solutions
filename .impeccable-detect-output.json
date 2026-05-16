@@ -1,0 +1,362 @@
+[
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/index.html",
+    "line": 0,
+    "snippet": "2.7:1 (need 4.5:1) — text #535559 on #050608"
+  },
+  {
+    "antipattern": "all-caps-body",
+    "name": "All-caps body text",
+    "description": "Long passages in uppercase are hard to read. We recognize words by shape (ascenders and descenders), which all-caps removes. Reserve uppercase for short labels and headings.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/index.html",
+    "line": 0,
+    "snippet": "text-transform: uppercase on 36 chars of body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/index.html",
+    "line": 0,
+    "snippet": "4.0:1 (need 4.5:1) — text #3266e4 on #050608"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/index.html",
+    "line": 0,
+    "snippet": "4.0:1 (need 4.5:1) — text #3266e4 on #050608"
+  },
+  {
+    "antipattern": "tiny-text",
+    "name": "Tiny body text",
+    "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/index.html",
+    "line": 0,
+    "snippet": "11px body text"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/index.html",
+    "line": 0,
+    "snippet": "3.8:1 (need 4.5:1) — text #3266e4 on #0b0d11"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/index.html",
+    "line": 0,
+    "snippet": "2.6:1 (need 4.5:1) — text #535559 on #0b0d11"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/index.html",
+    "line": 0,
+    "snippet": "2.6:1 (need 4.5:1) — text #535559 on #0b0d11"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/index.html",
+    "line": 0,
+    "snippet": "2.6:1 (need 4.5:1) — text #535559 on #0b0d11"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/index.html",
+    "line": 0,
+    "snippet": "2.6:1 (need 4.5:1) — text #535559 on #0b0d11"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/index.html",
+    "line": 0,
+    "snippet": "4.0:1 (need 4.5:1) — text #3266e4 on #050608"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/index.html",
+    "line": 0,
+    "snippet": "2.7:1 (need 4.5:1) — text #535559 on #050608"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/index.html",
+    "line": 0,
+    "snippet": "2.7:1 (need 4.5:1) — text #535559 on #050608"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/index.html",
+    "line": 0,
+    "snippet": "2.7:1 (need 4.5:1) — text #535559 on #050608"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/index.html",
+    "line": 0,
+    "snippet": "2.7:1 (need 3:1) — text #535559 on #050608"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/index.html",
+    "line": 0,
+    "snippet": "2.7:1 (need 3:1) — text #535559 on #050608"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/index.html",
+    "line": 0,
+    "snippet": "2.7:1 (need 4.5:1) — text #535559 on #050608"
+  },
+  {
+    "antipattern": "skipped-heading",
+    "name": "Skipped heading level",
+    "description": "Heading levels should not skip (e.g. h1 then h3 with no h2). Screen readers use heading hierarchy for navigation. Skipping levels breaks the document outline.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/index.html",
+    "line": 0,
+    "snippet": "<h2> \"Built by engineers. For operators.\" followed by <h4> \"Works Without Internet\" (missing h3)"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/laundrylink.html",
+    "line": 0,
+    "snippet": "4.0:1 (need 4.5:1) — text #3266e4 on #050608"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/laundrylink.html",
+    "line": 0,
+    "snippet": "4.0:1 (need 4.5:1) — text #3266e4 on #050608"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/laundrylink.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) — text #000000 on #050608"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/laundrylink.html",
+    "line": 0,
+    "snippet": "2.1:1 (need 4.5:1) — text #94a3b8 on #e2e8f0"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/laundrylink.html",
+    "line": 0,
+    "snippet": "2.5:1 (need 4.5:1) — text #ffffff on #10b981"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/laundrylink.html",
+    "line": 0,
+    "snippet": "2.5:1 (need 4.5:1) — text #ffffff on #10b981"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/laundrylink.html",
+    "line": 0,
+    "snippet": "2.5:1 (need 4.5:1) — text #ffffff on #10b981"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/laundrylink.html",
+    "line": 0,
+    "snippet": "2.6:1 (need 4.5:1) — text #94a3b8 on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/laundrylink.html",
+    "line": 0,
+    "snippet": "2.6:1 (need 4.5:1) — text #94a3b8 on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/laundrylink.html",
+    "line": 0,
+    "snippet": "2.6:1 (need 4.5:1) — text #94a3b8 on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/laundrylink.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) — text #000000 on #050608"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/laundrylink.html",
+    "line": 0,
+    "snippet": "1.0:1 (need 3:1) — text #000000 on #050608"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/laundrylink.html",
+    "line": 0,
+    "snippet": "1.2:1 (need 4.5:1) — text #e5e8ec on #ffffff"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/laundrylink.html",
+    "line": 0,
+    "snippet": "4.0:1 (need 4.5:1) — text #3266e4 on #050608"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/laundrylink.html",
+    "line": 0,
+    "snippet": "2.7:1 (need 4.5:1) — text #535559 on #050608"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/laundrylink.html",
+    "line": 0,
+    "snippet": "2.7:1 (need 4.5:1) — text #535559 on #050608"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/laundrylink.html",
+    "line": 0,
+    "snippet": "2.7:1 (need 3:1) — text #535559 on #050608"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/laundrylink.html",
+    "line": 0,
+    "snippet": "2.7:1 (need 3:1) — text #535559 on #050608"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/laundrylink.html",
+    "line": 0,
+    "snippet": "2.7:1 (need 4.5:1) — text #535559 on #050608"
+  },
+  {
+    "antipattern": "nested-cards",
+    "name": "Nested cards",
+    "description": "Cards inside cards create visual noise and excessive depth. Flatten the hierarchy — use spacing, typography, and dividers instead of nesting containers.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/laundrylink.html",
+    "line": 0,
+    "snippet": "Card inside card (div)"
+  },
+  {
+    "antipattern": "skipped-heading",
+    "name": "Skipped heading level",
+    "description": "Heading levels should not skip (e.g. h1 then h3 with no h2). Screen readers use heading hierarchy for navigation. Skipping levels breaks the document outline.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/laundrylink.html",
+    "line": 0,
+    "snippet": "<h2> \"Complete control from your counter\" followed by <h4> \"Washer 1\" (missing h3)"
+  },
+  {
+    "antipattern": "skipped-heading",
+    "name": "Skipped heading level",
+    "description": "Heading levels should not skip (e.g. h1 then h3 with no h2). Screen readers use heading hierarchy for navigation. Skipping levels breaks the document outline.",
+    "severity": "warning",
+    "file": "/home/aaron/coding projects/RAsolutions/RA-Solutions/laundrylink.html",
+    "line": 0,
+    "snippet": "<h2> \"Close the shift in one screen\" followed by <h4> \"Shift: Morning\" (missing h3)"
+  }
+]
