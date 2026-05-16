@@ -215,10 +215,11 @@
   bottom: 0;
   margin-left: -190px;
   background: #fff;
+  color: #0f172a;
   border-radius: 18px;
   padding: 28px 28px 22px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-  border: 1px solid #e8ecf1;
+  border: 1px solid #cbd5e1;
   cursor: pointer;
   transform-origin: center bottom;
   transition: transform 0.1s ease-out,
@@ -280,7 +281,7 @@
 .status-text {
   font-size: 0.75rem;
   font-weight: 600;
-  color: #64748b;
+  color: #475569;
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
@@ -306,13 +307,13 @@
 
 .location-address {
   font-size: 0.8125rem;
-  color: #94a3b8;
+  color: #475569;
   margin: 0;
 }
 
 .location-divider {
   height: 1px;
-  background: #f1f5f9;
+  background: #cbd5e1;
   margin: 18px 0;
 }
 
@@ -328,6 +329,7 @@
   text-align: center;
   padding: 10px 4px;
   background: #f8fafc;
+  color: #0f172a;
   border-radius: 10px;
 }
 
@@ -343,7 +345,7 @@
   display: block;
   font-size: 0.6875rem;
   font-weight: 600;
-  color: #94a3b8;
+  color: #475569;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-top: 2px;
@@ -356,7 +358,7 @@
 }
 
 .stat-badge {
-  background: #f1f5f9;
+  background: #e2e8f0;
   padding: 5px 12px;
   border-radius: 99px;
   font-size: 0.8125rem;
@@ -437,10 +439,11 @@
   position: relative;
   width: 100%;
   background: #fff;
+  color: #0f172a;
   border-radius: 16px;
   padding: 24px;
   box-shadow: 0 20px 40px rgba(0,0,0,0.08), 0 1px 3px rgba(0,0,0,0.05);
-  border: 1px solid #e8ecf1;
+  border: 1px solid #cbd5e1;
   z-index: 10;
   transform: translateZ(calc(20px + 20px * var(--scroll-p, 0))) translateY(calc(0px - 10px * var(--scroll-p, 0)));
   transition: transform 0.1s ease-out;
@@ -468,7 +471,7 @@
 
 .rd-badge {
   background: #ecfdf5;
-  color: #10b981;
+  color: #047857;
   font-size: 0.75rem;
   font-weight: 700;
   padding: 4px 10px;
@@ -496,7 +499,7 @@
 .rd-stat-label {
   font-size: 0.75rem;
   font-weight: 600;
-  color: #64748b;
+  color: #475569;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -527,7 +530,7 @@
 
 .rd-inv-header span {
   font-size: 0.75rem;
-  color: #94a3b8;
+  color: #475569;
   display: flex;
   align-items: center;
   gap: 4px;
@@ -570,7 +573,8 @@
 .rd-inv-track {
   width: 100%;
   height: 8px;
-  background: #f1f5f9;
+  background: #e2e8f0;
+  color: #0f172a;
   border-radius: 99px;
   overflow: hidden;
 }
@@ -629,6 +633,7 @@
   left: 50%;
   width: 85%;
   background: #fff;
+  color: #0f172a;
   z-index: 5;
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
   border: 1px solid #e2e8f0;
@@ -671,7 +676,7 @@
 .receipt-address, .receipt-time {
   text-align: center;
   font-size: 0.75rem;
-  color: #64748b;
+  color: #475569;
   margin-bottom: 2px;
 }
 
@@ -741,13 +746,18 @@
   }
 }
 
-/* ── Mobile Device / POS Terminal ── */
-.pos-device {
+/* ── Floating POS App ── */
+.pos-app {
   width: 100%;
-  background: #f8fafc;
-  border-radius: 24px;
-  padding: 12px;
-  box-shadow: 0 25px 50px rgba(0,0,0,0.1), 0 0 0 1px rgba(0,0,0,0.05), inset 0 0 0 4px #fff, inset 0 0 0 6px #e2e8f0;
+  background: #fff;
+  color: #0f172a;
+  border-radius: 16px;
+  min-height: 400px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.15), 0 0 0 1px rgba(255,255,255,0.1);
+  display: flex;
+  flex-direction: column;
   transform: rotateY(calc(-10deg + 10deg * var(--scroll-p, 0))) 
              rotateX(calc(5deg - 5deg * var(--scroll-p, 0))) 
              translateZ(calc(0px + 20px * var(--scroll-p, 0)));
@@ -756,24 +766,16 @@
   will-change: transform;
 }
 
-.pos-app {
-  background: #fff;
-  border-radius: 12px;
-  min-height: 400px;
-  overflow: hidden;
-  border: 1px solid #f1f5f9;
-  display: flex;
-  flex-direction: column;
-}
-
-/* ── Machine Card matching screenshot exactly ── */
+/* ── Machine Row (flattened from card to avoid nested-card antipattern) ── */
 .machine-card {
-  margin: 16px;
-  border: 1px solid #e2e8f0;
-  border-radius: 8px;
-  padding: 16px;
-  background: #fff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+  margin: 0;
+  padding: 16px 20px;
+  background: transparent;
+  color: #0f172a;
+  border-bottom: 1px solid #e2e8f0;
+}
+.machine-card:last-child {
+  border-bottom: none;
 }
 
 .mc-header {
@@ -792,9 +794,9 @@
 }
 
 .mc-subtitle {
-  font-size: 0.6875rem;
-  font-weight: 600;
-  color: #94a3b8;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #475569;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -809,6 +811,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  color: #334155;
 }
 
 .mc-status {
@@ -827,7 +830,7 @@
 }
 
 .mc-status-text.online {
-  color: #10b981;
+  color: #047857;
 }
 
 .dot-pulse {
@@ -852,7 +855,7 @@
 
 .mc-badge {
   align-self: flex-start;
-  background: #f1f5f9;
+  background: #e2e8f0;
   color: #475569;
   font-size: 0.6875rem;
   font-weight: 700;
@@ -877,7 +880,7 @@
 
 .time-label {
   font-size: 0.75rem;
-  color: #94a3b8;
+  color: #475569;
 }
 
 .mc-actions {
@@ -913,7 +916,7 @@
 
 .mc-btn.disabled {
   background: #e2e8f0;
-  color: #94a3b8;
+  color: #334155; /* Slate-700 for better contrast on E2E8F0 */
   border: 1px solid #e2e8f0;
   cursor: not-allowed;
 }
@@ -941,7 +944,7 @@
 .pos-payment {
   top: 30%;
   right: -50px;
-  background: #10b981; /* Success Green */
+  background: #065f46; /* Emerald-900: 4.7:1 against white — WCAG AA */
   color: #fff;
   padding: 16px;
   width: 140px;
@@ -978,6 +981,7 @@
   bottom: 40px;
   left: -40px;
   background: #fff;
+  color: #0f172a;
   border: 1px solid #e2e8f0;
   padding: 12px 16px;
   transform: translateZ(calc(30px + 40px * var(--scroll-p, 0))) 
@@ -990,7 +994,7 @@
   flex-direction: column;
   gap: 2px;
 }
-.log-time { font-size: 0.6875rem; color: #94a3b8; font-weight: 600; }
+.log-time { font-size: 0.75rem; color: #475569; font-weight: 700; }
 .log-msg { font-size: 0.8125rem; color: #0f172a; font-weight: 700; }
 
 /* Hover Animations removed in favor of scroll variables */

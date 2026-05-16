@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+:root {
+  --text-primary: oklch(0.93 0.006 260);
+  --text-secondary: oklch(0.68 0.008 260);
+  --text-muted: oklch(0.65 0.006 260);
+}
+#p { color: var(--text-primary); }
+#s { color: var(--text-secondary); }
+#m { color: var(--text-muted); }
+</style>
+</head>
+<body>
+<div id="p">Primary</div>
+<div id="s">Secondary</div>
+<div id="m">Muted</div>
+<script>
+  console.log(window.getComputedStyle(document.getElementById('p')).color);
+  console.log(window.getComputedStyle(document.getElementById('s')).color);
+  console.log(window.getComputedStyle(document.getElementById('m')).color);
+</script>
+</body>
+</html>
