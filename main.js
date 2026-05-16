@@ -120,12 +120,16 @@
             var elementCenter = rect.top + rect.height / 2;
             var distance = Math.abs(screenCenter - elementCenter);
             
+            var customThreshold = container.getAttribute('data-scroll-threshold');
+            var customDeadZone = container.getAttribute('data-scroll-deadzone');
+            
             // Asymmetric threshold:
-            // Use a larger threshold so it begins animating earlier
-            var threshold = (elementCenter > screenCenter) ? (windowHeight * 0.45) : (windowHeight * 0.65); 
+            // Use a larger threshold so it begins animating earlier, unless overridden
+            var defaultThreshold = (elementCenter > screenCenter) ? (windowHeight * 0.45) : (windowHeight * 0.65); 
+            var threshold = customThreshold ? (windowHeight * parseFloat(customThreshold)) : defaultThreshold;
             
             // Dead zone: element remains perfectly in focus when near the center (within 20% of screen center)
-            var deadZone = windowHeight * 0.2;
+            var deadZone = customDeadZone ? (windowHeight * parseFloat(customDeadZone)) : (windowHeight * 0.2);
             
             var progress;
             if (distance <= deadZone) {
